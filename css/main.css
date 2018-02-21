@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'cour';
+    src: url('../assets/fonts/cour.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}@font-face {
+    font-family: 'gill';
+    src: url('../assets/fonts/GillSansMT.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 96vh;
+    font-family: 'gill','sans-serif';
+}
+
+.wrapper{
+    position: relative;
+}
+
+#intro {
+    position: absolute;
+    margin-top: 210px;
+    text-align: center;
+    background: #fff;
+    font-size: 20px;
+    z-index: 2;
+}
+
+#title {
+    font-weight: 100;
+    font-size: 1em;
+}
+#subtitle {
+    font-family: 'cour';
+    font-size: 1em;
+}
+.sq, .line, .symbol {
+    position: absolute;
+
+}
+.sq {
+    background: rgb(249, 229, 222);
+}
+.line{
+    background:#2F467E;
+}
+.symbol{
+    color: #2F467E;
+    font-family: sans-serif;
+    width: 15px;
+    z-index: 2;
+}
+
+#sq1{
+    width: 27px;
+    height: 90px;
+    left: 5vw;
+    top: 5vh;
+}
+#sq2{
+    width: 40px;
+    height: 40px;
+    left: 45vw;
+    top: 11vh;
+}
+#sq3{
+    width: 30px;
+    height: 30px;
+    left: 80vw;
+    top: 5vh;
+}
+#sq4{
+    width: 40px;
+    height: 35px;
+    top: 26vh;
+    left: 28vw;
+}
+#sq5{
+    width: 15px;
+    height: 110px;
+    top: 30vh;
+    left: 55vw;
+}
+#sq6{
+    right: 1vw;
+    height: 50px;
+    width: 120px;
+    top: 35vh;
+}
+#sq7{
+    height: 55px;
+    width: 70px;
+    top: 56vh;
+    left: 16vw;
+}
+#sq8{
+    width: 65px;
+    height: 25px;
+    top: 64vh;
+    right: 17vw;
+}
+#sq9{
+    width: 47px;
+    height: 12px;
+    left:40vw;
+    top: 76vh;
+}
+#sq10{
+    width: 70px;
+    height: 45px;
+    top:87vh;
+    left: 7vw;
+}
+#sq11{
+    width: 40px;
+    height: 55px;
+    top: 85vh;
+    left: 65vw;
+}
+
+#l1{
+    width: 3.5px;
+    height: 40px;
+    left: 35vw;
+    top: 17vh
+}
+#l2{
+    width: 4px;
+    height: 40px;
+    left: 59vw;
+    top: 16vh;
+}
+#l3{
+    width: 3.5px;
+    height: 40px;
+    right: 11vw;
+    top: 15vh;
+}
+#l4{
+    width: 4px;
+    height: 45px;
+    left: 10vw;
+    top:26vh;
+}
+#l5{
+    width: 4.5px;
+    height: 45px;
+    right: 22vw;
+    top: 27vh;
+}
+#l6{
+    width: 4px;
+    height: 45px;
+    right: 15vw;
+    top:27vh;
+}
+#l7{
+    width: 4px;
+    height: 45px;
+    left: 42vw;
+    top: 38vh;
+}
+#l8{
+    left: 16vw;
+    top: 45vh;
+    width: 3px;
+    height: 40px;
+}
+#l9{
+    left: 32vw;
+    top: 48vh;
+    width: 3px;
+    height: 40px;
+}
+#l10{
+    left: 15vw;
+    top: 50vh;
+    width: 3px;
+    height: 40px;
+}
+#l11{
+    right: 31vw;
+    top:52vh;
+    width: 4px;
+    height: 40px;
+}
+#l12{
+    left: 5vw;
+    top: 62vh;
+    width: 4px;
+    height: 45px;
+}
+#l13{
+    right: 27vw;
+    top: 64vh;
+    width: 4px;
+    height: 40px;
+
+}
+#l14{
+    right: 20vw;
+    top: 73vh;
+    width: 4px;
+    height: 40px;
+}
+#l15{
+    right: 22vw;
+    top: 77vh;
+    width: 3px;
+    height: 45px;
+}
+#l16{
+    width: 4px;
+    height: 45px;
+    left: 45vw;
+    top:79vh;
+}
+#l17{
+    left: 18vw;
+    top:80vh;
+    width: 3.5px;
+    height: 40px;
+}
+
+#sy1{
+    left: 20vw;
+    top: 14vh;
+}
+#sy2{
+    top: 44vh;
+    left: 2vw;
+}
+#sy3{
+    right: 35vw;
+    top: 28vh;
+}
+#sy4{
+    right: 8vw;
+    top: 67vh;
+    width: 20px;
+}
+#sy7,#sy6,#sy5{
+    width: 12px;
+}
+#sy5{
+    left: 27vw;
+    top: 68vh;
+}
+#sy6{
+    top: 82vh;
+    left: 55vw;
+}
+#sy7{
+    left: 40vw;
+    top: 12vh;
+}
+#sy8{
+    width: 19px;
+    top: 86vh;
+    left: 23vw;
+}
+#sy9{
+    top: 35vh;
+    left: 22vw;
+}
+#sy10{
+    right: 22vw;
+    top: 50vh;
+}
+
+@media screen and (max-width: 800px) {
+    #sq4,#sq8,#l1,#l2,#l5,#l9,#l10,#l12,#l17 {
+        display: none;
+    }
+    #sy5{
+        left: 20vw;
+    }
+}
+@media screen and (max-width: 570px) {
+    #sq3,#sq7,#sq9,#l6,#l11 {
+        display: none;
+    }
+    #sy5{
+        left: 15vw;
+        top: 72vh;
+    }
+    #sy4{
+        top: 76vh;
+    }
+    #intro {
+        font-size: 16px;
+        width: 95%;
+    }
+}
+@media screen and (max-width: 450px) {
+    #sq6,#sq10,#l17 {
+        display: none;
+    }
+    #sq11 {
+        left: 30vw;
+    }
+    #l7{
+        left: 66vw;
+        top: 50vh;
+        height: 35px;
+    }
+    #intro {
+        font-size: 12px;
+    }
+}
+
+
+
