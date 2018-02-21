@@ -334,6 +334,8 @@ a{
     height: 17vh;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
     background-size:100%;
+    background-position-y: 71%;
+    z-index: 20;
 }
 #l26{
     top: 81vh;
