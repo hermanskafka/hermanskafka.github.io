@@ -36,11 +36,9 @@ a{
     position: absolute;
     margin-top: 210px;
     text-align: center;
-    background: #fff;
     font-size: 20px;
     z-index: 20;
     padding:20px;
-
 }
 
 
@@ -53,7 +51,7 @@ a{
 }
 .sq {
     background: rgb(249, 229, 222);
-    z-index: 10;
+    z-index: 12;
 }
 .line{
     background:#2F467E;
@@ -64,7 +62,6 @@ a{
     width: 100%;
     height: 100%;
     background: #2F467E;
-    box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
     animation-fill-mode: forwards;
 
 
@@ -77,38 +74,37 @@ a{
     width: 15px;
 }
 #title {
-    font-weight: 100;
-    font-size: 1em;
+    font-size: 40px;
+    color: #FEC71A;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+
 }
-#subtitle {
-    font-family: 'cour';
-    font-size: 1em;
-}
+
 
 
 #sq1{
-    width: 27px;
-    height: 90px;
+    width: 1vw;
+    height: 19vh;
     left: 5vw;
-    top: 5vh;
+    top: 3vh;
 }
 #sq2{
-    width: 40px;
-    height: 40px;
+    width: 6vw;
+    height: 9vh;
     left: 45vw;
     top: 11vh;
 }
 #sq3{
-    width: 30px;
-    height: 30px;
+    width: 1vw;
+    height: 13vh;
     left: 80vw;
-    top: 5vh;
+    top: 3vh;
 }
 #sq4{
-    width: 40px;
-    height: 35px;
+    width: 9vw;
+    height: 8vh;
     top: 26vh;
-    left: 28vw;
+    left: 24vw;
 }
 #sq5{
     width: 15px;
@@ -123,14 +119,14 @@ a{
     top: 35vh;
 }
 #sq7{
-    height: 55px;
-    width: 70px;
+    height: 27vh;
+    width: 1vw;
     top: 56vh;
     left: 16vw;
 }
 #sq8{
-    width: 65px;
-    height: 25px;
+    width: 8vw;
+    height: 8vh;
     top: 64vh;
     right: 17vw;
 }
@@ -188,6 +184,7 @@ a{
     height: 23vh;
     right: 34vw;
     top: 4vh;
+    display: none;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
 }
 #l6{
@@ -221,11 +218,12 @@ a{
     top: 24vh;
     width: 6vw;
     height: 10vh;
+    display: none;
 }
 #l11{
-    right: 31vw;
-    top: 32vh;
-    width: 18vw;
+    right: 34vw;
+    top: 35vh;
+    width: 24vw;
     height: 20vh;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
 }
@@ -246,16 +244,18 @@ a{
 }
 #l14{
     width: 16vw;
-    height: 22vh;
+    height: 15vh;
     left: 22vw;
     top: 12vh;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
+    background-position-y: 76%;
 }
 #l15{
     right: 15vw;
     top: 40vh;
     width: 56vw;
     height: 10vh;
+    display: none;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
 }
 #l16{
@@ -281,7 +281,7 @@ a{
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
 }
 #l19{
-    top: 21vh;
+    top: 24vh;
     width: 29vw;
     height: 26vh;
     right: 3vw;
@@ -308,10 +308,11 @@ a{
 }
 #l22{
     top: 50vh;
-    right: 27vw;
-    width: 10vw;
-    height: 10vw;
+    right: 29vw;
+    width: 7vw;
+    height: 43vh;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
+    z-index: 11;
 }
 #l23{
     top: 48vh;
@@ -323,19 +324,19 @@ a{
 #l24{
     top: 50vh;
     left: 9vw;
-    width: 42vw;
-    height: 20vh;
+    width: 37vw;
+    height: 17vh;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
 }
 #l25{
     top: 68vh;
     left: 6vw;
-    width: 20vw;
-    height: 17vh;
+    width: 18vw;
+    height: 13vh;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
     background-size:100%;
     background-position-y: 71%;
-    z-index: 20;
+    z-index: 11;
 }
 #l26{
     top: 81vh;
@@ -345,23 +346,23 @@ a{
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
 }
 #l27 {
-    top: 89vh;
+    top: 77vh;
     left: 19vw;
     width: 20vw;
     height: 7vh;
 }
 #l28{
-    top: 78vh;
-    left: 26vw;
+    top: 80vh;
+    left: 36vw;
     width: 10vw;
     height: 15vh;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
 }
 #l29{
-    top: 69vh;
-    left: 38vw;
-    width: 32vw;
-    height: 12vh;
+    top: 57vh;
+    left: 40vw;
+    width: 27vw;
+    height: 20vh;
     box-shadow: inset 59px 58px 75px -90px rgba(0,0,0,0.75);
 
 }
@@ -371,7 +372,8 @@ a{
     position: absolute;
     z-index: 10;
     letter-spacing: 9px;
-
+    border-bottom: 5px solid;
+    line-height: 0.9;
 }
 #contact{
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
@@ -384,7 +386,7 @@ a{
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
     color: rgb(249, 229, 222);
     position: absolute;
-    top: 16vh;
+    top: 19vh;
     left: 39vw;
 }
 #blog{
@@ -435,7 +437,7 @@ a{
     left: 23vw;
 }
 #sy9{
-    top: 35vh;
+    top: 32vh;
     left: 20vw;
 }
 #sy10{

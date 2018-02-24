@@ -43,7 +43,7 @@ var intervalModule =  (function () {
     function resetPicCount(){
         if(currentPic == 10) currentPic = 0
     }
-    setTimeout(()=>setInterval(addBckImg,300),10000)
+    setTimeout(()=>setInterval(addBckImg,100),2000)
 
 })()
 
