@@ -19,8 +19,14 @@
              setPicCount();
     }
     function setCss(el){
-        el.classList.add('z-index-9');
-        el.style['background-image'] = 'url(../assets/images/front/' + currentPic + '.jpg)';
+        if(currentPic == 11) {
+            el.classList.add('box-shadow');
+            el.style['background-image'] = "";
+        }else {
+            el.classList.remove('box-shadow');
+            if(!el.classList.contains('z-index-9')) el.classList.add('z-index-9');
+            el.style['background-image'] = 'url(../assets/images/front/' + currentPic + '.jpg)';
+        }
     }
     function getElement(){
         return elements.length % 2 == 0 ?  elements.pop() : elements.shift()
@@ -29,10 +35,12 @@
           if(elements.length == 0) elements = elementsToArray();
     }
     function setPicCount(){
-        if(currentPic == 10) currentPic = 0;
+        if(currentPic == 11) currentPic = 0;
         currentPic++;
     }
     setTimeout(()=>setInterval(manageBckImg,100),2000)
 
 })()
+
+
 
