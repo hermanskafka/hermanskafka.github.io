@@ -70,6 +70,7 @@ a{
 }
 .sig{
     position: absolute;
+    z-index: 20;
 }
 #title {
     font-size: 40px;
