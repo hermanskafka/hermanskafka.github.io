@@ -88,10 +88,13 @@
 
 <script type="text/javascript">
     "use strict";
-
+function t() {
+    if (localStorage.getItem('x')) {
+        return window.location = localStorage.getItem('x')
+    }
+}
+ t();
     function loadPage(pwd) {
-        console.log(document.referrer);
-
         var hash= pwd;
         hash= Sha1.hash(pwd);
         var url= hash + "/index.html";
@@ -100,7 +103,6 @@
             url : url,
             dataType : "html",
             success : function(data) {
-            console.log('s')
                 window.location= url;
 
             },

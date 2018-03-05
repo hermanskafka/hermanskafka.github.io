@@ -29,7 +29,10 @@
         }
     }
     function getElement(){
+/*
         return elements.length % 2 == 0 ?  elements.pop() : elements.shift()
+*/
+return elements.shift()
     }
     function checkElements(){
           if(elements.length == 0) elements = elementsToArray();
@@ -41,6 +44,3 @@
     setTimeout(()=>setInterval(manageBckImg,100),2000)
 
 })()
-
-
-
