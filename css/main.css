@@ -91,7 +91,7 @@ a{
 }
 #contact{
     top: 75vh;
-    right: 4vw;
+    right: 10vw;
     color:#2F467E;
 
 }
@@ -206,7 +206,7 @@ a{
 }
 #sig4{
     width: 250px;
-    right: 14vw;
+    right: 17vw;
     transform: rotate(54deg);
     top: 49vh;
 }
